@@ -1,0 +1,14 @@
+#### make notification ####
+-> php artisan make:notification VendorCreated
+-> unetr app wird danach ein Verzeichnis notifivation erstellt 
+-> wir änder die Datei VendorCreated so wie es hier steht
+-> Wir fügen auch Informazionen in der env Datei wie es hier steht
+-> dann geben wir den Befahl .. php artisan config:cach
+-> In der Klasse Vender dann folgt eingeben use Illuminate\Notifications\Notifiable; und use Notifiable; innerhalb der Klasse
+-> Nach der speicherunf des neuen Vendors geben wir die Zeile mit der eine Email gesendet wird.
+
+#### observer ####
+-> nObserver ist so eine Art event das passiert 
+-> Wird wie folgt definiert
+-> php artisan make:observe MainCategoryObserver --model=Models\MainCategory
+-> Uner app wid ein Verzeichnis erstellt und in dem wird eine Observe Klasse erstellt
