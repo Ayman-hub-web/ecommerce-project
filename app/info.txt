@@ -12,3 +12,4 @@
 -> Wird wie folgt definiert
 -> php artisan make:observe MainCategoryObserver --model=Models\MainCategory
 -> Uner app wid ein Verzeichnis erstellt und in dem wird eine Observe Klasse erstellt
+->github
